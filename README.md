@@ -5,7 +5,7 @@ This is an implementation for detection and tracking objects. The goal of this p
 The code is as simple as possible to make using it easy and friendly. Only one command is needed by users. The code is less than 75 lines.
 
 ### Step1: object detecion
-YOLOv5 is the algorithm used for object detection. being fast, real-time and accurate, YOLOv5 is a good choice for object detection.
+Object detection was done by YOLOv5. it is fast, real-time and accurate.
 ![image](https://user-images.githubusercontent.com/106428795/187042283-df9c9e66-4da6-489e-8dab-b65d0697019b.png)
 
 
@@ -30,6 +30,7 @@ It is possible to define your favorite objects for both detection and tracking. 
 ![person-traffic light](https://user-images.githubusercontent.com/106428795/187044258-9cdd6f06-5e4a-4295-a766-25247db05342.jpg)
 
 ### Step3: tracking
+SORT is the algorithm used for object tracking
         detection_and_tracking('video.mp4', ['car'], tracking=True)
 ![tracking1](https://user-images.githubusercontent.com/106428795/187045821-d2fcf5d6-fb59-4bcf-be7a-f7070bceecb1.jpg)
 
