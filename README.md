@@ -20,4 +20,13 @@ YOLOv5 is the algorithm used for object detection. being fast, real-time and acc
 ### Step2: favorite list
 It is possible to define your favorite objects for both detection and tracking. It is very simple, by just writing them in the list in the input of the function.
 
+        ------> only cars:
+        detection_and_tracking('video.mp4', ['car'], tracking=False)
+        
+![cars](https://user-images.githubusercontent.com/106428795/187044192-04a2d653-c6de-4642-b5d9-9fae5554351c.jpg)
+
+        ------> person and traffic light
+        detection_and_tracking('cars3.mp4', ['person', 'traffic light'], tracking=False)
+![person-traffic light](https://user-images.githubusercontent.com/106428795/187044258-9cdd6f06-5e4a-4295-a766-25247db05342.jpg)
+
 ### Step3: tracking
