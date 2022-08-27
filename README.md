@@ -9,6 +9,13 @@ YOLOv5 is the algorithm used for object detection. being fast, real-time and acc
 ![image](https://user-images.githubusercontent.com/106428795/187042283-df9c9e66-4da6-489e-8dab-b65d0697019b.png)
 
 
+    detection_and_tracking('video.mp4', [], tracking=False)
+
+![object detection](https://user-images.githubusercontent.com/106428795/187042998-530f641e-aa91-4018-94c5-42d0537c3b7d.jpg)
+
+
+![object detection2](https://user-images.githubusercontent.com/106428795/187043394-bd561651-10a1-42d1-b7de-458373bad3b7.jpg)
+
 
 ### Step2: favorite list
 
