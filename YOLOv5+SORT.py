@@ -18,10 +18,10 @@ def show_objects(image, places, colors):
             ID = int(places[i, -1])
             text = str(ID)
         cv2.rectangle(image, (int(x1[i]), int(y1[i])),
-                      (int(x2[i]), int(y2[i])), colors[ID+3], 2)
+                      (int(x2[i]), int(y2[i])), colors[ID], 2)
 
         cv2.putText(image, text, (int(x1[i]), int(y1[i]-7)),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, colors[ID+3], 2)
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, colors[ID], 2)
     cv2.imshow('frame', image)
 
 
