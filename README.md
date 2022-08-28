@@ -9,7 +9,7 @@ Object detection was done by YOLOv5. it is fast, real-time and accurate.
 ![image](https://user-images.githubusercontent.com/106428795/187042283-df9c9e66-4da6-489e-8dab-b65d0697019b.png)
 
 
-    detection_and_tracking('video.mp4', [], tracking=False)
+        detection_and_tracking('video.mp4', [], tracking=False)
 
 ![object detection](https://user-images.githubusercontent.com/106428795/187042998-530f641e-aa91-4018-94c5-42d0537c3b7d.jpg)
 
