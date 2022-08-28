@@ -31,7 +31,9 @@ It is possible to define your favorite objects for both detection and tracking. 
 
 ### Step3: tracking
 Object tracking was done by SORT(Simple online and realtime tracking). It would be enable by setting the tracking 'True'. By default it is False wich means tracking is not enable.
+
         detection_and_tracking('video.mp4', ['car'], tracking=True)
+        
 ![tracking1](https://user-images.githubusercontent.com/106428795/187045821-d2fcf5d6-fb59-4bcf-be7a-f7070bceecb1.jpg)
 
 
