@@ -40,3 +40,6 @@ Object tracking was done by SORT(Simple online and realtime tracking). By defaul
 ![tracking2](https://user-images.githubusercontent.com/106428795/187045835-becabe32-442f-434f-ba0e-4002dd82e650.jpg)
 
 ### Detection - Tracking
+
+![7-detection_vs_tracking](https://user-images.githubusercontent.com/106428795/187227616-d267af96-cf3f-4692-a459-02ece58c4dbe.gif)
+
